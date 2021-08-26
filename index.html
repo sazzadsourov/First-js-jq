@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--  CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>js/jq</title>
+</head>
+
+<!-- <body onload="pload()"> -->
+
+<div class="container">
+  <button type="button" class="btn btn-primary" onclick="text()">Click me to change text</button>
+  <h1 id="h1">My Country Name is Bangladesh</h1>
+
+
+
+
+  <h2>What Can JavaScript Do?</h2>
+
+  <button onclick="image()">Turn off the light</button>
+
+  <img id="light" src="img/pic_bulboff.gif" style="width:100px">
+
+  <button onclick="image2()">Turn on the light</button>
+
+  <h1 class="bg-danger text-center"> event item</h1>
+
+  <h2 class="d_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, qui?</h2>
+  <button type="button" class="btn btn-primary" onclick="btn_text()"> click to show background</button>
+
+  <h1 class="full_stack">i am a full stack web developer</h1>
+  <button type="button" onclick="p_text1()">click it</button>
+
+
+  <p class="text3">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quo neque voluptatum sapiente quia deserunt,
+    consectetur nobis excepturi sed autem.
+  </p>
+  <button type="button" onmouseover="mhover()">hover effect</button>
+  <button type="button" onclick="alert1()" class="d-block mt-5"> alert</button>
+
+  <button type="button" ondblclick="dbl_text()">double click here</button>
+  <p id="dd_text"></p>
+
+  <input type="text " onclick="down()">
+  <h2 id="key_down"></h2>
+
+
+
+
+
+  <h1 class="bg-danger text-center">function</h1>
+
+  <button type="button" class="btn btn-info d-block mt-5" onclick="time_date()">click to show time& date</button>
+  <h2 class="time"></h2>
+
+  <button type="button" onclick="rep()" class="btn btn-danger">click here</button>
+  <p id="rep_text"></p>
+
+  <button type="button" onclick="font()">click font size</button>
+  <p id="font_size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati temporibus eaque ab
+    dolorem modi veritatis. Harum sunt minus asperiores?</p>
+
+  <button type="button" onclick="myFunction()"> click to show color</button>
+  <p id="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe at voluptas aliquid.</p>
+  <button type="button" class="btn btn-dark" onclick="border1()"> show border</button>
+  <h3 id="bor_one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sit.</h3>
+
+  <button type="button" class="btn btn-info" onclick="change_img()">image one</button>
+  <img src="img/img (1).jpg" alt="image" id="c_img">
+  <button type="button" class="btn btn-info" onclick="change_img1()">image two</button>
+
+  <!-- selector -->
+  <h1 class="bg-danger text-center">selector</h1>
+
+  <button class="btn btn-dark d-block" onclick="border2()"> show border</button>
+  <h3 id="bor_one1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sit.</h3>
+
+  <h1 class="full_stack1">i am a full stack web developer</h1>
+  <button onclick="p_text12()">click it</button>
+  <input type="text " onclick="down1()" class="d-block">
+  <h2 id="key_down1"></h2>
+
+  <p class="text31">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quo neque voluptatum sapiente quia deserunt,
+    consectetur nobis excepturi sed autem.
+  </p>
+  <button type="button" onmouseover="mhover1()">hover effect</button>
+
+  <button type="button" class="btn btn-primary d-block mt-3" onclick="text5()">show text </button>
+  <p class="text01"></p>
+  <button type="button" class="btn btn-primary d-block mt-3" onclick="text15()">show text color </button>
+  <p id="text012">I live in Bangladesh</p>
+  <button type="button" class="btn btn-secondary d-block my-3" onclick="tagid()">background show</button>
+  <h5 class="d-inline">I am a student</h5>
+  <button type="button" onclick="font1()" class="btn btn-success d-block">click font size</button>
+  <p id="font_size1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati temporibus eaque ab
+    dolorem modi veritatis. Harum sunt minus asperiores?</p>
+  <button type="button" onclick="font2()" class="btn btn-success d-block">click font size</button>
+  <p id="font_size2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati temporibus eaque ab
+    dolorem modi veritatis. Harum sunt minus asperiores?</p>
+  <!-- output -->
+  <h1 class="bg-danger text-center">output</h1>
+  <button type="button" onclick="alert11()" class="d-block mt-5 btn btn-warning"> alert</button>
+  <button type="button" class="btn btn-primary d-block mt-3" onclick="text05()">innerhtml</button>
+  <p class="text02"></p>
+  <button type="button" class="btn btn-primary d-block mt-3" onclick="text03()">document.write </button>
+  <p class=""></p>
+  <button class="btn btn-primary d-block mt-3" onclick="text06()">console.log </button>
+  <p class=""></p>
+  <button type="button" onclick="alert111()" class="d-block mt-5 btn btn-warning"> alert</button>
+  <button type="button" onclick="result34()" class="btn btn-light">result</button>
+  <button type="button" class="btn btn-secondary d-block mt-3" onclick="text55()">innerhtml</button>
+  <p class="text22"></p>
+  <button type="button" class="btn btn-success d-block mt-3" onclick="text033()">document.write </button>
+  <p class=""></p>
+  <button type="button" class="btn btn-info d-block mt-3" onclick="text066()">console.log </button>
+  <p class=""></p>
+  <button type="button" class="btn btn-info" onclick="result34()">oparetor result</button>
+  <p id="plus"></p>
+  <!-- oparetor -->
+  <h1 class="bg-danger text-center">oparetor</h1>
+  <button type="button" class="btn btn-info" onclick="result324()">arithmatic oparetor</button>
+  <p id="Addition"></p>
+  <button type="button" class="btn btn-info" onclick="result212()">Subtraction</button>
+  <p id="Subtraction"></p>
+  <button type="button" class="btn btn-info" onclick="result213()">Multiplication</button>
+  <p id="Multiplication"></p>
+  <button type="button" class="btn btn-info" onclick="result214()">Quotient</button>
+  <p id="Quotient"></p>
+  <p>Assign 5 to x, and display the value of the comparison (x == 8):</p>
+  <button type="button" class="btn btn-info" onclick="result2141()">True/False</button>
+  <p id="Assign1"></p>
+  <p>Assign 5 to x, and display the value of the comparison (x == 5):</p>
+  <button type="button" class="btn btn-info" onclick="result2142()">True/False</button>
+  <p id="Assign2"></p>
+  <p>Assign 5 to x, and display the value of the comparison (x > 8).</p>
+  <button type="button" class="btn btn-info" onclick="result2143()">Geater Then</button>
+  <p id="Assign3"></p>
+  <p>Assign 5 to x, and display the value of the comparison (x < 8).</p>
+      <button type="button" class="btn btn-info" onclick="result2144()">Less Then</button>
+      <p id="Assign4"></p>
+      <button type="button" class="btn btn-info" onclick="result3245()">Addition</button>
+      <p id="Addition4"></p>
+      <button type="button" class="btn btn-info" onclick="result3246()">remainder</button>
+      <p id="Addition5"></p>
+
+      <!-- jQuery  -->
+      <!-- selector -->
+      <h1 class="bg-info text-center">jQuery</h1>
+      <h1 class="bg-danger text-center">selector</h1>
+
+
+      <button type="button" class="button1">click me</button>
+
+      <button type="button" class="border_101 d-block mt-3 btn-secondary">show border</button>
+      <h3 class="bor_one11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sit.</h3>
+
+      <h2 id="jcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, natus!</h2>
+
+      <button type="button" class="qrbtn1 btn btn-danger">click</button>
+      <h1 class="honest">he is a honest person</h1>
+
+      <button type="button" class="qrbtn btn btn-secondary">click</button>
+      <h1 class="honest1 ">he is a honest person</h1>
+
+      <button type="button" class="btn btn-success fj_btn">show font size</button>
+      <p class="fj_btn1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro vel et aperiam unde enim error
+        necessitatibus nihil quod impedit sint.</p>
+
+      <button type="button" class="btn btn-success fj_btn2">show hide</button>
+      <div class="p_hide">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, magni!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, magni!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, magni!</p>
+      </div>
+
+      <button type="button" class="btn btn-success fj_btn3">show ans</button>
+      <h3 class="fj_h3">who are you ?</h3>
+      <button type="button" class="btn btn-success " id="fj_btn4">id seclector</button>
+      <p id="fj2_p"></p>
+      <button type="button" class="btn btn-success " id="console">console log</button>
+      <p id="console1"></p>
+
+      <!--jQ event -->
+      <h1 class="bg-danger text-center">jQ event</h1>
+
+      <button type="button" class="1button">click me</button>
+
+      <button type="button" class="1border_101 d-block mt-3 btn-secondary">show border</button>
+      <h3 class="1bor_one11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sit.</h3>
+
+      <h2 id="jcolor1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, natus!</h2>
+
+      <button type="button" class="1qrbtn btn btn-danger">click</button>
+      <h1 class="1honest">he is a honest person</h1>
+      <p class="pc1">click 0</p>
+      <p class="pc1">click one.</p>
+      <p class="pc1">click two</p>
+      Enter your name: <input type="text" class="input1" placeholder="type something">
+
+      <p>Keypresses: <span>0</span></p>
+
+      Enter your name: <input type="text" class="1input" placeholder="press keydown">
+
+      <!-- jQ output -->
+      <h1 class="bg-danger text-center">jQ output</h1>
+
+      <button class="out_btn1">innerHTML </button>
+      <p class="out_p1"></p>
+      <button class="out_btn2">write output</button>
+      <p class="out_p2"></p>
+      <button class="out_btn3">console output</button>
+      <p class="out_p3"></p>
+      <button class="out_btn4">alert output</button>
+      <p class="out_p4"></p>
+      <h1 class="out_btn5">click the text</h1>
+      <h3 class="out_btn6">5+5 = click</h3>
+      <h4 class="out_btn7">click the alert text</h4>
+      <button id="out_btn8">console click</button>
+      <button id="out_btn9" class="d-block">click me</button>
+      <!-- jQ operator -->
+      <h1 class="bg-danger text-center">jQ operator</h1>
+      <button id="opa_btn1" class="btn btn-success">Addition</button>
+      <p id="Addition1"></p>
+      <button id="opa_btn2" class="btn btn-success">Subtraction</button>
+      <p id="Subtraction1"></p>
+      <button id="opa_btn3" class="btn btn-success">Multiplication</button>
+      <p id="Multiplication1"></p>
+      <button id="opa_btn4" class="btn btn-success">Division</button>
+      <p id="division1"></p>
+      <p>Assign 5 to x, and display the value of the comparison (x == 8):</p>
+      <button id="opa_btn5" class="btn btn-info">true or false</button>
+      <p id="ope_p1"></p>
+      <p>Assign 5 to x, and display the value of the comparison (x == 5):</p>
+      <button id="opa_btn6" class="btn btn-info">true or false</button>
+      <p id="ope_p2"></p>
+      <p>Assign 5 to x, and display the value of the comparison (x > 8).</p>
+      <button id="opa_btn7" class="btn btn-info">geather then</button>
+      <p id="ope_p3"></p>
+      <p>Assign 5 to x, and display the value of the comparison (x < 8).</p>
+          <button id="opa_btn8" class="btn btn-info">less then</button>
+          <p id="ope_p4"></p>
+          <button id="opa_btn9" class="btn btn-success">Addition</button>
+          <p id="Addition3"></p>
+          <button id="opa_btn10" class="btn btn-success">remainder</button>
+          <p id="remainder"></p>
+
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
+
+<!-- JS -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
